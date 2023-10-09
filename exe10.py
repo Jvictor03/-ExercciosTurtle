@@ -16,49 +16,48 @@ for _ in range(4):
     turtle.forward(100)
     turtle.right(90)
 
-turtle.up()
+turtle.penup()
 turtle.bk(20)
 turtle.left(90)
-turtle.down()
+turtle.pendown()
 
 for _ in range(4):
    turtle.color('blue')
    turtle.left(90)
    turtle.forward(100)
 
-turtle.up()
+turtle.penup()
 turtle.fd(20)
 turtle.left(90)
 turtle.bk(20)
-turtle.down()
+turtle.pendown()
 
 for _ in range(4):
    turtle.color('grey')
    turtle.bk(100)
    turtle.left(90)
 
-turtle.up()
+turtle.penup()
 turtle.fd(20)
 turtle.left(90)
-turtle.down()
+turtle.pendown()
 
 for _ in range(4):
    turtle.color('orange')
    turtle.right(90)
    turtle.forward(100)
 
-turtle.up()
+turtle.penup()
 turtle.bk(100)
 turtle.right(90)
 turtle.fd(120)
 turtle.right(90)
 turtle.fd(20)
 turtle.left(180)
-turtle.down()
+turtle.pendown()
 
 turtle.color('green')
-turtle.shape('arrow')
 
 for _ in range(4):
-    turtle.forward(260)
+    turtle.forward(270)
     turtle.left(90)
